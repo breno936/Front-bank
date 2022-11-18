@@ -1,4 +1,4 @@
-
+import logo1 from '../Finbank __ Responsive HTML 5 Template_files/logo-1.png'
 
 function nav() {
   return (
@@ -17,7 +17,7 @@ function nav() {
                             <p>Looking</p>
                         </div>
                         <div className="select-box clearfix">
-                            <select className="wide" style="display: none;">
+                            <select className="wide" style={{display:"none"}}>
                                 <option data-display="Personal Banking">
                                     Personal Banking
                                 </option>
@@ -25,7 +25,7 @@ function nav() {
                                 <option value="2">Personal Banking 01</option>
                                 <option value="3">Personal Banking 02</option>
                                 <option value="4">Personal Banking 03</option>
-                            </select><div className="nice-select wide" tabindex="0"><span className="current">Personal Banking</span><ul className="list"><li data-value="Personal Banking" data-display="Personal Banking" className="option selected">
+                            </select><div className="nice-select wide" tabIndex="0"><span className="current">Personal Banking</span><ul className="list"><li data-value="Personal Banking" data-display="Personal Banking" className="option selected">
                                     Personal Banking
                                 </li><li data-value="1" className="option">Business Banking</li><li data-value="2" className="option">Personal Banking 01</li><li data-value="3" className="option">Personal Banking 02</li><li data-value="4" className="option">Personal Banking 03</li></ul></div>
                         </div>
@@ -74,7 +74,7 @@ function nav() {
                     <div className="main-menu-style1-left">
                         <div className="logo-box-style1">
                             <a href="https://st.ourhtmldemo.com/new/finbank-demo/index.html">
-                                <img src="./Finbank __ Responsive HTML 5 Template_files/logo-1.png" alt="Awesome Logo" title=""/>
+                                <img src={logo1} alt="Awesome Logo" title=""/>
                             </a>
                         </div>
 
@@ -209,7 +209,7 @@ function nav() {
 
 </header>
 
-
+{/*
 <div className="stricky-header stricked-menu main-menu stricky-fixed">
     <div className="sticky-header__content">
         <div className="main-menu__wrapper clearfix">
@@ -327,7 +327,7 @@ function nav() {
                 </div>
             </div>
         </div>
-    </div>{/*.sticky-header__content */}
+    </div>{/*.sticky-header__content 
 </div> {/*.stricky-header */}
 </>
   );

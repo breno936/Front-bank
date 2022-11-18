@@ -28,12 +28,16 @@ import './componentes/Finbank __ Responsive HTML 5 Template_files/08-blog-sectio
 
 import  './componentes/Finbank __ Responsive HTML 5 Template_files/style(1).css';
 import  './componentes/Finbank __ Responsive HTML 5 Template_files/responsive.css';
-import Nav from './componentes/navBar/nav.js';
+import Nav from './componentes/navBar/nav';
+import Slider from './componentes/slider/slider';
+import Services from './componentes/services/services';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App page-wrapper">
      <Nav/>
+     <Slider/>
+     <Services/>
     </div>
   );
 }
