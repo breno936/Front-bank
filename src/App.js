@@ -24,20 +24,33 @@ import './componentes/Finbank __ Responsive HTML 5 Template_files/05-testimonial
 import './componentes/Finbank __ Responsive HTML 5 Template_files/06-partner-section.css';
 import './componentes/Finbank __ Responsive HTML 5 Template_files/07-footer-section.css';
 import './componentes/Finbank __ Responsive HTML 5 Template_files/08-blog-section.css';
+import './componentes/formFiles/bootstrap.min.css';
+import './componentes/formFiles/fontawesome-all.min.css';
+import './componentes/formFiles/iofrm-style.css';
+import './componentes/formFiles/iofrm-theme1.css';
 
 
 import  './componentes/Finbank __ Responsive HTML 5 Template_files/style(1).css';
 import  './componentes/Finbank __ Responsive HTML 5 Template_files/responsive.css';
 import Nav from './componentes/navBar/nav';
-import Slider from './componentes/slider/slider';
-import Services from './componentes/services/services';
+import Footer from './componentes/footer/footer';
+import Home from './views/Home/home';
+import Login from './componentes/login/login';
+import Register from './componentes/register/register';
+import {Helmet} from 'react-helmet';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App page-wrapper">
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+      </Routes>
+      </BrowserRouter>
      <Nav/>
-     <Slider/>
-     <Services/>
+     <Footer/>
     </div>
   );
 }

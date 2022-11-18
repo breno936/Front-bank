@@ -9,9 +9,9 @@ function Services(){
         <section className="wealth-secure-area">
             <div className="container">
                 <div className="sec-title text-center">
-                    <h2>Grow Your Wealth Secure</h2>
+                    <h2>Confira alguns de nossos serviços</h2>
                     <div className="sub-title">
-                        <p>Don’t just make a deposit, make an investment today.</p>
+                        <p>Temos as melhores opções de serviço para atender-lo.</p>
                     </div>
                 </div>
                 <div className="row">
@@ -52,16 +52,13 @@ function Services(){
                                     <div className="inner-title">
                                         <div className="arrow-top"></div>
                                         <div className="arrow-bottom"></div>
-                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Mutual Funds</a></h3>
+                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Saque</a></h3>
                                         <div className="right-arrow-btn">
                                             <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="text-box">
-                                    <p>The claims off duty or the obligations business it will frequently occur that
-                                        pleasures be repudiated.</p>
-                                </div>
+
                             </div></div><div className="owl-item cloned" style={{width: "370.5px", marginRight: "30px"}}><div className="single-wealth-secure-box style4">
                                 <div className="img-box">
                                     <div className="img-box-inner">
@@ -70,16 +67,13 @@ function Services(){
                                     <div className="inner-title">
                                         <div className="arrow-top"></div>
                                         <div className="arrow-bottom"></div>
-                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Pension Scheme</a></h3>
+                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Deposito</a></h3>
                                         <div className="right-arrow-btn">
                                             <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="text-box">
-                                    <p>Beguiled and demoralized by charms pleasure of the moment so blinded by
-                                        they cannot and trouble.</p>
-                                </div>
+                             
                             </div></div><div className="owl-item cloned" style={{width: "370.5px", marginRight: "30px"}}><div className="single-wealth-secure-box">
                                 <div className="img-box">
                                     <div className="img-box-inner">
@@ -88,16 +82,13 @@ function Services(){
                                     <div className="inner-title">
                                         <div className="arrow-top"></div>
                                         <div className="arrow-bottom"></div>
-                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Trade FX</a></h3>
+                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Transações</a></h3>
                                         <div className="right-arrow-btn">
                                             <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="text-box">
-                                    <p>Beguiled and demoralized by charms pleasure of the moment so blinded by
-                                        they cannot and trouble.</p>
-                                </div>
+                         
                             </div></div><div className="owl-item cloned" style={{width: "370.5px", marginRight: "30px"}}><div className="single-wealth-secure-box style2">
                                 <div className="img-box">
                                     <div className="img-box-inner">
@@ -106,14 +97,14 @@ function Services(){
                                     <div className="inner-title">
                                         <div className="arrow-top"></div>
                                         <div className="arrow-bottom"></div>
-                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Multi Currency a/c</a></h3>
+                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#"></a></h3>
                                         <div className="right-arrow-btn">
                                             <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="text-box">
-                                    <p>Cases are perfectly simple &amp; easy to distinguish in a free hour when power
+                                    <p>Cases are perfectly simple &amp; easy to diguish in a free hour when power
                                         of choice is prevents.</p>
                                 </div>
                             </div></div><div className="owl-item cloned" style={{width: "370.5px", marginRight: "30px"}}><div className="single-wealth-secure-box style3">
@@ -124,7 +115,7 @@ function Services(){
                                     <div className="inner-title">
                                         <div className="arrow-top"></div>
                                         <div className="arrow-bottom"></div>
-                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Mutual Funds</a></h3>
+                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Saque</a></h3>
                                         <div className="right-arrow-btn">
                                             <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                                         </div>
@@ -142,7 +133,7 @@ function Services(){
                                     <div className="inner-title">
                                         <div className="arrow-top"></div>
                                         <div className="arrow-bottom"></div>
-                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Pension Scheme</a></h3>
+                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Saque</a></h3>
                                         <div className="right-arrow-btn">
                                             <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                                         </div>
@@ -196,7 +187,7 @@ function Services(){
                                     <div className="inner-title">
                                         <div className="arrow-top"></div>
                                         <div className="arrow-bottom"></div>
-                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Mutual Funds</a></h3>
+                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Saque</a></h3>
                                         <div className="right-arrow-btn">
                                             <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                                         </div>
@@ -268,7 +259,7 @@ function Services(){
                                     <div className="inner-title">
                                         <div className="arrow-top"></div>
                                         <div className="arrow-bottom"></div>
-                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Mutual Funds</a></h3>
+                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Saque</a></h3>
                                         <div className="right-arrow-btn">
                                             <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                                         </div>
@@ -340,7 +331,7 @@ function Services(){
                                     <div className="inner-title">
                                         <div className="arrow-top"></div>
                                         <div className="arrow-bottom"></div>
-                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Mutual Funds</a></h3>
+                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Mutunds</a></h3>
                                         <div className="right-arrow-btn">
                                             <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                                         </div>
@@ -358,16 +349,14 @@ function Services(){
                                     <div className="inner-title">
                                         <div className="arrow-top"></div>
                                         <div className="arrow-bottom"></div>
-                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Pension Scheme</a></h3>
+                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Saque</a></h3>
                                         <div className="right-arrow-btn">
                                             <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="text-box">
-                                    <p>Beguiled and demoralized by charms pleasure of the moment so blinded by
-                                        they cannot and trouble.</p>
-                                </div>
+                             
+                        
                             </div></div><div className="owl-item cloned active" style={{width: "370.5px", marginRight: "30px"}}><div className="single-wealth-secure-box">
                                 <div className="img-box">
                                     <div className="img-box-inner">
@@ -376,16 +365,13 @@ function Services(){
                                     <div className="inner-title">
                                         <div className="arrow-top"></div>
                                         <div className="arrow-bottom"></div>
-                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Trade FX</a></h3>
+                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Depósito</a></h3>
                                         <div className="right-arrow-btn">
                                             <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="text-box">
-                                    <p>Beguiled and demoralized by charms pleasure of the moment so blinded by
-                                        they cannot and trouble.</p>
-                                </div>
+                            
                             </div></div><div className="owl-item cloned active" style={{width: "370.5px", marginRight: "30px"}}><div className="single-wealth-secure-box style2">
                                 <div className="img-box">
                                     <div className="img-box-inner">
@@ -394,16 +380,13 @@ function Services(){
                                     <div className="inner-title">
                                         <div className="arrow-top"></div>
                                         <div className="arrow-bottom"></div>
-                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Multi Currency a/c</a></h3>
+                                        <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Transações</a></h3>
                                         <div className="right-arrow-btn">
                                             <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="text-box">
-                                    <p>Cases are perfectly simple &amp; easy to distinguish in a free hour when power
-                                        of choice is prevents.</p>
-                                </div>
+                            
                             </div></div><div className="owl-item cloned active" style={{width: "370.5px", marginRight: "30px"}}><div className="single-wealth-secure-box style3">
                                 <div className="img-box">
                                     <div className="img-box-inner">

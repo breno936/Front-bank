@@ -27,18 +27,17 @@ function Slider() {
                                     <div className="main-slider-content">
                                         <div className="main-slider-content__inner">
                                             <div className="big-title">
-                                                <h2>An Innovative<br/> Framework for Your<br/> Financial solutions</h2>
+                                                <h2>Feito para te Ajudar<br/> No seu Dia a Dia</h2>
                                             </div>
                                             <div className="text">
                                                 <p>
-                                                    Their duty through weakness of will, which is the same as<br/> saying
-                                                    through shrinking from toil.
+                                                    Aqui Você Encontra as Melhores Opções
                                                 </p>
                                             </div>
                                             <div className="btns-box">
                                                 <a className="btn-one" href="https://st.ourhtmldemo.com/new/finbank-demo/add-property.html">
                                                     <span className="txt">
-                                                        Make an Appointment
+                                                        Descubra
                                                     </span>
                                                 </a>
                                             </div>
@@ -49,8 +48,8 @@ function Slider() {
                         </div>
                     </div>
                     <div className="slider-buttom-box">
-                        <a className="style2" href="https://st.ourhtmldemo.com/new/finbank-demo/#">Make Payment <span className="icon-play-button"></span></a>
-                        <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Make an Enquiry <span className="icon-play-button"></span></a>
+                        <a className="style2" href="https://st.ourhtmldemo.com/new/finbank-demo/#">Faça um Pagamento <span className="icon-play-button"></span></a>
+                        <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Faça uma Pergunta <span className="icon-play-button"></span></a>
                     </div>
 
                     
@@ -65,18 +64,17 @@ function Slider() {
                                     <div className="main-slider-content">
                                         <div className="main-slider-content__inner">
                                             <div className="big-title">
-                                                <h2>Bank with the<br/> Happiest Customers<br/> in the World</h2>
+                                            <h2>Feito para te Ajudar<br/> No seu Dia a Dia</h2>
                                             </div>
                                             <div className="text">
                                                 <p>
-                                                    On the other hand, we denounce with righteous indignation<br/>
-                                                    and dislike men who are so beguiled.
+                                                    Aqui Você Encontra as Melhores Opções
                                                 </p>
                                             </div>
                                             <div className="btns-box">
                                                 <a className="btn-one" href="https://st.ourhtmldemo.com/new/finbank-demo/add-property.html">
                                                     <span className="txt">
-                                                        Make an Appointment
+                                                        Serviços
                                                     </span>
                                                 </a>
                                             </div>
@@ -98,18 +96,17 @@ function Slider() {
                                     <div className="main-slider-content">
                                         <div className="main-slider-content__inner">
                                             <div className="big-title">
-                                                <h2>Banking Made<br/> Easy, More Secure &amp;<br/> More Personal</h2>
+                                            <h2>Feito para te Ajudar<br/> No seu Dia a Dia</h2>
                                             </div>
                                             <div className="text">
-                                                <p>
-                                                    Their duty through weakness of will, which is the same as<br/> saying
-                                                    through shrinking from toil.
+                                                 <p>
+                                                    Aqui Você Encontra as Melhores Opções
                                                 </p>
                                             </div>
                                             <div className="btns-box">
                                                 <a className="btn-one" href="https://st.ourhtmldemo.com/new/finbank-demo/add-property.html">
                                                     <span className="txt">
-                                                        Make an Appointment
+                                                    Serviços
                                                     </span>
                                                 </a>
                                             </div>
@@ -131,18 +128,17 @@ function Slider() {
                                     <div className="main-slider-content">
                                         <div className="main-slider-content__inner">
                                             <div className="big-title">
-                                                <h2>An Innovative<br/> Framework for Your<br/> Financial solutions</h2>
+                                            <h2>Feito para te Ajudar<br/> No seu Dia a Dia</h2>
                                             </div>
                                             <div className="text">
-                                                <p>
-                                                    Their duty through weakness of will, which is the same as<br/> saying
-                                                    through shrinking from toil.
+                                                  <p>
+                                                    Aqui Você Encontra as Melhores Opções
                                                 </p>
                                             </div>
                                             <div className="btns-box">
                                                 <a className="btn-one" href="https://st.ourhtmldemo.com/new/finbank-demo/add-property.html">
                                                     <span className="txt">
-                                                        Make an Appointment
+                                                    Serviços
                                                     </span>
                                                 </a>
                                             </div>
@@ -166,18 +162,17 @@ function Slider() {
                                     <div className="main-slider-content">
                                         <div className="main-slider-content__inner">
                                             <div className="big-title">
-                                                <h2>Bank with the<br/> Happiest Customers<br/> in the World</h2>
+                                            <h2>Feito para te Ajudar<br/> No seu Dia a Dia</h2>
                                             </div>
                                             <div className="text">
-                                                <p>
-                                                    On the other hand, we denounce with righteous indignation<br/>
-                                                    and dislike men who are so beguiled.
+                                            <p>
+                                                    Aqui Você Encontra as Melhores Opções
                                                 </p>
                                             </div>
                                             <div className="btns-box">
                                                 <a className="btn-one" href="https://st.ourhtmldemo.com/new/finbank-demo/add-property.html">
                                                     <span className="txt">
-                                                        Make an Appointment
+                                                    Serviços
                                                     </span>
                                                 </a>
                                             </div>
@@ -190,10 +185,10 @@ function Slider() {
 
                
                 <div className="main-slider__nav">
-                    <div className="swiper-button-prev" id="main-slider__swiper-button-next" tabindex="0" role="button" aria-label="Next slide">
+                    <div className="swiper-button-prev" id="main-slider__swiper-button-next" tabIndex="0" role="button" aria-label="Next slide">
                         <i className="icon-chevron left"></i>
                     </div>
-                    <div className="swiper-button-next" id="main-slider__swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide">
+                    <div className="swiper-button-next" id="main-slider__swiper-button-prev" tabIndex="0" role="button" aria-label="Previous slide">
                         <i className="icon-chevron right"></i>
                     </div>
                 </div>

@@ -87,82 +87,17 @@ function nav() {
                                 <li className="dropdown megamenu current">
                                     <a href="https://st.ourhtmldemo.com/new/finbank-demo/index.html">Home</a>
                                 </li>
-
                                 <li className="dropdown">
-                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Services</a>
-                                    <ul>
-                                        <li className="dropdown">
-                                            <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Accounts</a>
-                                            <ul>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/accounts.html">All Accounts</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/account-savings.html">Savings Account</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/account-current.html">Current Account</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/account-fixed-dep.html">Fixed Deposit Account</a>
-                                                </li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/account-salary.html">Salary Account</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/account-recuring-dep.html">Recuring Deposit a/c</a>
-                                                </li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/account-nri.html">NRI Account</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="dropdown">
-                                            <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Cards</a>
-                                            <ul>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/cards.html">Our All Cards</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/cards-business.html">Business</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/cards-cashback.html">Cashback</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/cards-law-interest.html">Low Interest</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/cards-rewards.html">Rewards</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/cards-secured.html">Secured</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/cards-travel-hotel.html">Travel &amp; Hotel</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="dropdown">
-                                            <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Loans</a>
-                                            <ul>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-home.html">Home Loan</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-personal.html">Personal Loan</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-vehicle.html">Vehicle Loan</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-education.html">Education Loan</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-gold.html">Gold Loan</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li className="dropdown">
-                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">About</a>
-                                    <ul>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/about.html">About Us</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/team.html">Board of Directors</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/careers.html">Careers</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/careers-details.html">Career Detail</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/faq.html">Faq’s</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/testimonials.html">Testimonials</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/404.html">404 Error</a></li>
-                                    </ul>
+                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Serviços</a>
                                 </li>
                                 <li className="dropdown">
-                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">News</a>
-                                    <ul>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/blog.html">Grid View</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/blog-2.html">List View</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/blog-3.html">Large Image</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/blog-single.html">Single Post</a></li>
-                                    </ul>
+                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Sua conta</a>
                                 </li>
                                 <li className="dropdown">
-                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Apply Now</a>
-                                    <ul>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-home.html">Home Loan</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-personal.html">Personal Loan</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-vehicle.html">Vehicle Loan</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-education.html">Education Loan</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-gold.html">Gold Loan</a></li>
-                                    </ul>
+                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Sobre</a>
                                 </li>
                                 <li>
-                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/contact.html">Get In Touch</a>
+                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/contact.html">Contato</a>
                                 </li>
                             </ul>
                         </div>
@@ -174,7 +109,7 @@ function nav() {
                                 <span className="icon-home-button"></span>Login
                             </a>
                             <a className="style2" href="https://st.ourhtmldemo.com/new/finbank-demo/#">
-                                <span className="icon-payment"></span>Open an Account
+                                <span className="icon-payment"></span>Abra sua conta
                             </a>
                         </div>
                     </div>
@@ -191,17 +126,17 @@ function nav() {
                 <div className="update-box">
                     <div className="inner-title">
                         <span className="icon-megaphone"></span>
-                        <h4>Updates:</h4>
+                        <h4> </h4>
                     </div>
-                    <div className="text">
+                    {/* <div className="text">
                         <p>Get upto 4%* on our Savings Account Balances with Finbank.</p>
                         <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-chevron"></span>More Details</a>
-                    </div>
+                    </div> */}
                 </div>
-                <div className="slogan-box">
+                {/* <div className="slogan-box">
                     <p>Dear Customer, We have launched Video KYC facility for New customer to open savings ac
                     </p>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
@@ -209,7 +144,7 @@ function nav() {
 
 </header>
 
-{/*
+
 <div className="stricky-header stricked-menu main-menu stricky-fixed">
     <div className="sticky-header__content">
         <div className="main-menu__wrapper clearfix">
@@ -234,80 +169,16 @@ function nav() {
                                 </li>
 
                                 <li className="dropdown">
-                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Services</a>
-                                    <ul>
-                                        <li className="dropdown">
-                                            <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Accounts</a>
-                                            <ul>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/accounts.html">All Accounts</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/account-savings.html">Savings Account</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/account-current.html">Current Account</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/account-fixed-dep.html">Fixed Deposit Account</a>
-                                                </li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/account-salary.html">Salary Account</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/account-recuring-dep.html">Recuring Deposit a/c</a>
-                                                </li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/account-nri.html">NRI Account</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="dropdown">
-                                            <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Cards</a>
-                                            <ul>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/cards.html">Our All Cards</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/cards-business.html">Business</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/cards-cashback.html">Cashback</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/cards-law-interest.html">Low Interest</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/cards-rewards.html">Rewards</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/cards-secured.html">Secured</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/cards-travel-hotel.html">Travel &amp; Hotel</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="dropdown">
-                                            <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Loans</a>
-                                            <ul>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-home.html">Home Loan</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-personal.html">Personal Loan</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-vehicle.html">Vehicle Loan</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-education.html">Education Loan</a></li>
-                                                <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-gold.html">Gold Loan</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li className="dropdown">
-                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">About</a>
-                                    <ul>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/about.html">About Us</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/team.html">Board of Directors</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/careers.html">Careers</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/careers-details.html">Career Detail</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/faq.html">Faq’s</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/testimonials.html">Testimonials</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/404.html">404 Error</a></li>
-                                    </ul>
+                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Serviços</a>
                                 </li>
                                 <li className="dropdown">
-                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">News</a>
-                                    <ul>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/blog.html">Grid View</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/blog-2.html">List View</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/blog-3.html">Large Image</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/blog-single.html">Single Post</a></li>
-                                    </ul>
+                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Sua conta</a>
                                 </li>
                                 <li className="dropdown">
-                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Apply Now</a>
-                                    <ul>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-home.html">Home Loan</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-personal.html">Personal Loan</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-vehicle.html">Vehicle Loan</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-education.html">Education Loan</a></li>
-                                        <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/loan-gold.html">Gold Loan</a></li>
-                                    </ul>
+                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Sobre</a>
                                 </li>
                                 <li>
-                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/contact.html">Get In Touch</a>
+                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/contact.html">Contato</a>
                                 </li>
                             </ul>
                         </div>
@@ -319,7 +190,7 @@ function nav() {
                                 <span className="icon-home-button"></span>Login
                             </a>
                             <a className="style2" href="https://st.ourhtmldemo.com/new/finbank-demo/#">
-                                <span className="icon-payment"></span>Open an Account
+                                <span className="icon-payment"></span>Abra sua conta
                             </a>
                         </div>
                     </div>
@@ -327,8 +198,8 @@ function nav() {
                 </div>
             </div>
         </div>
-    </div>{/*.sticky-header__content 
-</div> {/*.stricky-header */}
+    </div>
+</div> 
 </>
   );
 }
