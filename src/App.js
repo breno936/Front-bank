@@ -32,8 +32,6 @@ import './componentes/formFiles/iofrm-theme1.css';
 
 import  './componentes/Finbank __ Responsive HTML 5 Template_files/style(1).css';
 import  './componentes/Finbank __ Responsive HTML 5 Template_files/responsive.css';
-import Nav from './componentes/navBar/nav';
-import Footer from './componentes/footer/footer';
 import Home from './views/Home/home';
 import Login from './componentes/login/login';
 // import Register from './componentes/register/register';
@@ -45,14 +43,14 @@ function App() {
   return (
     <div className="App page-wrapper">
       <BrowserRouter>
+   
       <Routes>
-        <Route path="/" element={<App/>}/>
-        <Route path="login" element={<Login/>}/>
-      </Routes>
+        <Route path="/" exact element={<Home/>}/>
+        <Route path="/login" element={<Login/>}/>
+        </Routes>
       </BrowserRouter>
-     <Nav/>
-     <Outlet/>
-     <Footer/>
+      <Outlet/>
+  
     </div>
   );
 }

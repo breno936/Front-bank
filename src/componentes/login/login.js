@@ -1,4 +1,11 @@
+import axios from "axios";
+
 function Login(){
+    function logar(){
+        axios.get("http://127.0.0.1:8000/user/user")
+        .then(res => console.log(res))
+        .catch(err => console.log(err));
+    }
     return(
         <div className="form-body">
         <div className="website-logo">
@@ -23,13 +30,13 @@ function Login(){
                         <div className="page-links">
                             <a href="http://brandio.io/envato/iofrm/html/login1.html" className="active">Login</a><a href="http://brandio.io/envato/iofrm/html/register1.html">Register</a>
                         </div>
-                        <form>
+                  
                             <input className="form-control" type="text" name="username" placeholder="E-mail Address" required=""/>
                             <input className="form-control" type="password" name="password" placeholder="Password" required=""/>
                             <div className="form-button">
-                                <button id="submit" type="submit" className="ibtn">Login</button> <a href="http://brandio.io/envato/iofrm/html/forget1.html">Forget password?</a>
+                                <button id="submit" onClick={logar} className="ibtn">Login</button> <a href="http://brandio.io/envato/iofrm/html/forget1.html">Forget password?</a>
                             </div>
-                        </form>
+                        
                         <div className="other-links">
                             <span>Or login with</span><a href="http://brandio.io/envato/iofrm/html/login1.html#">Facebook</a><a href="http://brandio.io/envato/iofrm/html/login1.html#">Google</a><a href="http://brandio.io/envato/iofrm/html/login1.html#">Linkedin</a>
                         </div>
