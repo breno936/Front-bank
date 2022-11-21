@@ -36,9 +36,9 @@ import Nav from './componentes/navBar/nav';
 import Footer from './componentes/footer/footer';
 import Home from './views/Home/home';
 import Login from './componentes/login/login';
-import Register from './componentes/register/register';
-import {Helmet} from 'react-helmet';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+// import Register from './componentes/register/register';
+// import {Helmet} from 'react-helmet';
+import {BrowserRouter, Routes, Route, Outlet} from 'react-router-dom';
 
 
 function App() {
@@ -46,10 +46,12 @@ function App() {
     <div className="App page-wrapper">
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/" element={<App/>}/>
+        <Route path="login" element={<Login/>}/>
       </Routes>
       </BrowserRouter>
      <Nav/>
+     <Outlet/>
      <Footer/>
     </div>
   );

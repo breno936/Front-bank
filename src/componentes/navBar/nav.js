@@ -1,5 +1,5 @@
 import logo1 from '../Finbank __ Responsive HTML 5 Template_files/logo-1.png'
-
+import {Link} from 'react-router-dom'
 function nav() {
   return (
     <>
@@ -105,9 +105,9 @@ function nav() {
 
                     <div className="main-menu-style1-right">
                         <div className="header-btn-one">
-                            <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">
+                            <Link to="/login">
                                 <span className="icon-home-button"></span>Login
-                            </a>
+                            </Link>
                             <a className="style2" href="https://st.ourhtmldemo.com/new/finbank-demo/#">
                                 <span className="icon-payment"></span>Abra sua conta
                             </a>
