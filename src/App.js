@@ -47,7 +47,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
-        </Routes>
+      </Routes>
       </BrowserRouter>
       <Outlet/>
   

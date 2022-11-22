@@ -2,7 +2,13 @@ import axios from "axios";
 
 function Login(){
     function logar(){
-        axios.get("http://127.0.0.1:8000/user/user")
+    
+     const url = "http://127.0.0.1:8000/user/user";
+        axios.get(url, {
+            params:{
+                name:'Breno'
+            }
+        })
         .then(res => console.log(res))
         .catch(err => console.log(err));
     }
