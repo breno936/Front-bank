@@ -11,7 +11,7 @@ body {
 
 .swiper {
   width: 100%;
-  height: 600px;
+  height: 700px;
 }
 
 .swiper-slide {
@@ -44,4 +44,34 @@ body {
 .swiper {
   margin-left: auto;
   margin-right: auto;
+}
+.swiper-button-next{
+  color: red!important;
+}
+.swiper-button-prev{
+  color: red!important;
+}
+.fundoSlide1{
+  background-image: url('../../img/slide1.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.fundoSlide2{
+  background-image: url('../../img/slide2.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.fundoSlide3{
+  background-image: url('../../img/slide3.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.fundoSlide4{
+  background-image: url('../../img/slide4.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
 }

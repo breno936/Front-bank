@@ -34,6 +34,7 @@ import  './componentes/Finbank __ Responsive HTML 5 Template_files/style(1).css'
 import  './componentes/Finbank __ Responsive HTML 5 Template_files/responsive.css';
 import Home from './views/Home/home';
 import Login from './componentes/login/login';
+import Register from './componentes/register/register';
 // import Register from './componentes/register/register';
 // import {Helmet} from 'react-helmet';
 import {BrowserRouter, Routes, Route, Outlet} from 'react-router-dom';
@@ -47,6 +48,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
+        <Route path="/register" element={<Register/>}/>
       </Routes>
       </BrowserRouter>
       <Outlet/>

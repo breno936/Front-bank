@@ -14,17 +14,7 @@ function Questions(){
                                     <p>Saiba mais sobre nossos valores</p>
                                 </div>
                             </div>
-                            <div className="faq-search-box">
-                                <h3>Help You to Find</h3>
-                                <div className="faq-search-box__inner">
-                                    <form className="search-form" action="https://st.ourhtmldemo.com/new/finbank-demo/#">
-                                        <input placeholder="Related Keyword..." type="text"/>
-                                        <button type="submit">
-                                            <i className="icon-search"></i>
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
+                  
 
                         </div>
                     </div>
@@ -47,53 +37,31 @@ function Questions(){
                                 <li className="accordion block active-block">
                                     <div className="acc-btn active">
                                         <div className="icon-outer"><i className="icon-right-arrow"></i></div>
-                                        <h3>What is the minimum balance?</h3>
+                                        <h3>Segurança</h3>
                                     </div>
                                     <div className="acc-content current">
-                                        <p>Rationally encounter consequences that are extremely painful again
-                                            there anyone who loves or pursues desire.</p>
+                                        <p>Temos o melhor time trabalhando dia e noite para garantir a segurança dos seus Dados</p>
                                     </div>
                                 </li>
                                 <li className="accordion block">
                                     <div className="acc-btn">
                                         <div className="icon-outer"><i className="icon-right-arrow"></i></div>
-                                        <h3>What is the rate of interest?</h3>
+                                        <h3>Inovação</h3>
                                     </div>
                                     <div className="acc-content">
-                                        <p>Rationally encounter consequences that are extremely painful again
-                                            there anyone who loves or pursues desire.</p>
+                                        <p>Estamos sempre nos esforçando para dar a melhor experiência possível para nosso clientes</p>
                                     </div>
                                 </li>
                                 <li className="accordion block">
                                     <div className="acc-btn">
                                         <div className="icon-outer"><i className="icon-right-arrow"></i></div>
-                                        <h3>When will I receive my account statement?</h3>
+                                        <h3>Versatilidade</h3>
                                     </div>
                                     <div className="acc-content">
-                                        <p>Rationally encounter consequences that are extremely painful again
-                                            there anyone who loves or pursues desire.</p>
+                                        <p>Aqui disponibilizamos nossos serviços para você através do nosso app e site.</p>
                                     </div>
                                 </li>
-                                <li className="accordion block">
-                                    <div className="acc-btn">
-                                        <div className="icon-outer"><i className="icon-right-arrow"></i></div>
-                                        <h3>Can I use any branch across India?</h3>
-                                    </div>
-                                    <div className="acc-content">
-                                        <p>Rationally encounter consequences that are extremely painful again
-                                            there anyone who loves or pursues desire.</p>
-                                    </div>
-                                </li>
-                                <li className="accordion block">
-                                    <div className="acc-btn">
-                                        <div className="icon-outer"><i className="icon-right-arrow"></i></div>
-                                        <h3>How safe/secure is our net banking a/c?</h3>
-                                    </div>
-                                    <div className="acc-content">
-                                        <p>Rationally encounter consequences that are extremely painful again
-                                            there anyone who loves or pursues desire.</p>
-                                    </div>
-                                </li>
+                           
 
                             </ul>
                         </div>
@@ -104,7 +72,7 @@ function Questions(){
                 <div className="row">
                     <div className="col-xl-12">
                         <div className="faq-style1-bottom-box text-center">
-                            <p>Didn’t get, Click below button to more anwers or <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">contact us.</a></p>
+                         
                             <div className="btns-box">
                                 <a className="btn-one" href="https://st.ourhtmldemo.com/new/finbank-demo/#">
                                     <span className="txt">Grab Your Deals</span>

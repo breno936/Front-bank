@@ -33,10 +33,7 @@ function Login(){
                     <div className="form-items">
                         <h3>Get more things done with Loggin platform.</h3>
                         <p>Access to the most powerfull tool in the entire design and web industry.</p>
-                        <div className="page-links">
-                            <a href="http://brandio.io/envato/iofrm/html/login1.html" className="active">Login</a><a href="http://brandio.io/envato/iofrm/html/register1.html">Register</a>
-                        </div>
-                  
+               
                             <input className="form-control" type="text" name="username" placeholder="E-mail Address" required=""/>
                             <input className="form-control" type="password" name="password" placeholder="Password" required=""/>
                             <div className="form-button">

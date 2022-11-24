@@ -53,11 +53,7 @@ function nav() {
                             Search
                         </a>
                     </div>
-                    <div className="language-switcher">
-                        <div id="polyglotLanguageSwitcher">
-                            
-                        <a id="en" className="current" href="https://st.ourhtmldemo.com/new/finbank-demo/#">English<span className="trigger"></span></a><ul className="dropdown"><li><a id="fr" href="https://st.ourhtmldemo.com/new/finbank-demo/#">French</a></li><li><a id="de" href="https://st.ourhtmldemo.com/new/finbank-demo/#">German</a></li><li><a id="it" href="https://st.ourhtmldemo.com/new/finbank-demo/#">Italian</a></li><li><a id="es" href="https://st.ourhtmldemo.com/new/finbank-demo/#">Spanish</a></li></ul></div>
-                    </div>
+                  
                 </div>
                 {/*End Main Header Style1 Top Right*/}
 
@@ -108,9 +104,9 @@ function nav() {
                             <Link to="/login">
                                 <span className="icon-home-button"></span>Login
                             </Link>
-                            <a className="style2" href="https://st.ourhtmldemo.com/new/finbank-demo/#">
+                            <Link className="style2" to="/register">
                                 <span className="icon-payment"></span>Abra sua conta
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
@@ -145,7 +141,7 @@ function nav() {
 </header>
 
 
-<div className="stricky-header stricked-menu main-menu stricky-fixed">
+{/* <div className="stricky-header stricked-menu main-menu stricky-fixed">
     <div className="sticky-header__content">
         <div className="main-menu__wrapper clearfix">
             <div className="container">
@@ -199,7 +195,7 @@ function nav() {
             </div>
         </div>
     </div>
-</div> 
+</div>  */}
 </>
   );
 }

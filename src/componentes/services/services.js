@@ -1,7 +1,6 @@
-import wealth1 from '../Finbank __ Responsive HTML 5 Template_files/wealth-secure-1.jpg';
-import wealth2 from '../Finbank __ Responsive HTML 5 Template_files/wealth-secure-2.jpg';
-import wealth3 from '../Finbank __ Responsive HTML 5 Template_files/wealth-secure-3.jpg';
-import wealth4 from '../Finbank __ Responsive HTML 5 Template_files/wealth-secure-4.jpg';
+import emprestimo from '../../img/emprestimo.jpg';
+import cartao from '../../img/cartao.jpg';
+import transferencia from '../../img/transferencia.jpg';
 
 import React, { useRef, useState } from "react";
 // Import Swiper React components
@@ -15,7 +14,7 @@ import "swiper/css/navigation";
 import "./styles.css";
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 function Services(){
     return(
@@ -38,53 +37,51 @@ function Services(){
         pagination={{
           clickable: true,
         }}
-        navigation={true}
-        modules={[Pagination, Navigation]}
+        autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
         <div className="owl-item cloned" style={{width: "370.5px", marginRight: "30px"}}><div className="single-wealth-secure-box style4">
             <div className="img-box">
-                <div className="img-box-inner">
-                    <img src={wealth4} alt=""/>
+                <div className="img-box-inner" style={{height:"350px"}}>
+                    <img src={emprestimo} alt=""/>
                 </div>
                 <div className="inner-title">
                     <div className="arrow-top"></div>
                     <div className="arrow-bottom"></div>
-                    <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Saque</a></h3>
+                    <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Empréstimo pessoal</a></h3>
                     <div className="right-arrow-btn">
                         <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                     </div>
                 </div>
             </div>
-            <div className="text-box">
-                <p>Beguiled and demoralized by charms pleasure of the moment so blinded by
-                    they cannot and trouble.</p>
-            </div>
+    
         </div></div>    
         </SwiperSlide>
         <SwiperSlide>
         <div className="owl-item cloned" style={{width: "370.5px", marginRight: "30px"}}><div className="single-wealth-secure-box style4">
             <div className="img-box">
-                <div className="img-box-inner">
-                    <img src={wealth4} alt=""/>
+                <div className="img-box-inner" style={{height:"350px"}}>
+                    <img src={cartao} alt=""/>
                 </div>
                 <div className="inner-title">
                     <div className="arrow-top"></div>
                     <div className="arrow-bottom"></div>
-                    <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Saque</a></h3>
+                    <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Cartões</a></h3>
                     <div className="right-arrow-btn">
                         <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                     </div>
                 </div>
             </div>
-            <div className="text-box">
-                <p>Beguiled and demoralized by charms pleasure of the moment so blinded by
-                    they cannot and trouble.</p>
-            </div>
+      
         </div></div>    
         </SwiperSlide>
-        <SwiperSlide> 
+        {/* <SwiperSlide> 
                 <div className="owl-item cloned" style={{width: "370.5px", marginRight: "30px"}}><div className="single-wealth-secure-box style4">
             <div className="img-box">
                 <div className="img-box-inner">
@@ -93,37 +90,31 @@ function Services(){
                 <div className="inner-title">
                     <div className="arrow-top"></div>
                     <div className="arrow-bottom"></div>
-                    <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Saque</a></h3>
+                    <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Depósito</a></h3>
                     <div className="right-arrow-btn">
                         <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                     </div>
                 </div>
             </div>
-            <div className="text-box">
-                <p>Beguiled and demoralized by charms pleasure of the moment so blinded by
-                    they cannot and trouble.</p>
-            </div>
+           
         </div></div>    
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
         <div className="owl-item cloned" style={{width: "370.5px", marginRight: "30px"}}><div className="single-wealth-secure-box style4">
             <div className="img-box">
-                <div className="img-box-inner">
-                    <img src={wealth4} alt=""/>
+                <div className="img-box-inner" style={{height:"350px"}}>
+                    <img src={transferencia} alt=""/>
                 </div>
                 <div className="inner-title">
                     <div className="arrow-top"></div>
                     <div className="arrow-bottom"></div>
-                    <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Saque</a></h3>
+                    <h3><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Transferência</a></h3>
                     <div className="right-arrow-btn">
                         <a href="https://st.ourhtmldemo.com/new/finbank-demo/#"><span className="icon-right-arrow"></span></a>
                     </div>
                 </div>
             </div>
-            <div className="text-box">
-                <p>Beguiled and demoralized by charms pleasure of the moment so blinded by
-                    they cannot and trouble.</p>
-            </div>
+    
         </div></div>    
         </SwiperSlide>
  
