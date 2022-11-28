@@ -5,62 +5,7 @@ function nav() {
     <>
     <header className="main-header main-header-style1">
 
-    {/*Start Main Header Style1 Top*/}
-    <div className="main-header-style1-top">
-        <div className="auto-container">
-            <div className="outer-box">
-                {/*Start Main Header Style1 Top Left*/}
-                <div className="main-header-style1-top__left">
-                    <div className="looking-banking-box ">
-                        <div className="inner-title">
-                            <span className="icon-binoculars"></span>
-                            <p>Looking</p>
-                        </div>
-                        <div className="select-box clearfix">
-                            <select className="wide" style={{display:"none"}}>
-                                <option data-display="Personal Banking">
-                                    Personal Banking
-                                </option>
-                                <option value="1">Business Banking</option>
-                                <option value="2">Personal Banking 01</option>
-                                <option value="3">Personal Banking 02</option>
-                                <option value="4">Personal Banking 03</option>
-                            </select><div className="nice-select wide" tabIndex="0"><span className="current">Personal Banking</span><ul className="list"><li data-value="Personal Banking" data-display="Personal Banking" className="option selected">
-                                    Personal Banking
-                                </li><li data-value="1" className="option">Business Banking</li><li data-value="2" className="option">Personal Banking 01</li><li data-value="3" className="option">Personal Banking 02</li><li data-value="4" className="option">Personal Banking 03</li></ul></div>
-                        </div>
-                    </div>
-                    <div className="nearest-branch">
-                        <span className="icon-map"></span>
-                        <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Find Nearest Branch</a>
-                    </div>
-                </div>
-                {/*End Main Header Style1 Top Left*/}
-
-                {/*Start Main Header Style1 Top Right*/}
-                <div className="main-header-style1-top__right">
-                    <div className="header-menu-style1">
-                        <ul>
-                            <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Careers</a></li>
-                            <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Faq’s</a></li>
-                            <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Offers</a></li>
-                            <li><a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Calendar</a></li>
-                        </ul>
-                    </div>
-                    <div className="box-search-style1">
-                        <a href="https://st.ourhtmldemo.com/new/finbank-demo/#" className="search-toggler">
-                            <span className="icon-search"></span>
-                            Search
-                        </a>
-                    </div>
-                  
-                </div>
-                {/*End Main Header Style1 Top Right*/}
-
-            </div>
-        </div>
-    </div>
-    {/*End Main Header Style1 Top*/}
+ 
 
     <nav className="main-menu main-menu-style1">
         <div className="main-menu__wrapper clearfix">
@@ -81,19 +26,19 @@ function nav() {
 
                             <ul className="main-menu__list">
                                 <li className="dropdown megamenu current">
-                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/index.html">Home</a>
+                                    <Link to="/"> Home</Link>
                                 </li>
                                 <li className="dropdown">
-                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Serviços</a>
+                                    <a href="#servicos">Serviços</a>
                                 </li>
                                 <li className="dropdown">
-                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Sua conta</a>
+                                <Link to="/profile">Sua conta</Link>
                                 </li>
                                 <li className="dropdown">
                                     <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Sobre</a>
                                 </li>
                                 <li>
-                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/contact.html">Contato</a>
+                                <Link to="/contato">Contato</Link>
                                 </li>
                             </ul>
                         </div>

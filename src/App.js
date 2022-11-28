@@ -24,17 +24,24 @@ import './componentes/Finbank __ Responsive HTML 5 Template_files/05-testimonial
 import './componentes/Finbank __ Responsive HTML 5 Template_files/06-partner-section.css';
 import './componentes/Finbank __ Responsive HTML 5 Template_files/07-footer-section.css';
 import './componentes/Finbank __ Responsive HTML 5 Template_files/08-blog-section.css';
+import './componentes/Finbank __ Responsive HTML 5 Template_files/10-contact.css';
 import './componentes/formFiles/bootstrap.min.css';
 import './componentes/formFiles/fontawesome-all.min.css';
 import './componentes/formFiles/iofrm-style.css';
 import './componentes/formFiles/iofrm-theme1.css';
-
+import './componentes/Payyed - Money Transfer and Online Payments HTML Template_files/bootstrap.min.css';
+import './componentes/Payyed - Money Transfer and Online Payments HTML Template_files/all.min.css';
+import './componentes/Payyed - Money Transfer and Online Payments HTML Template_files/daterangepicker.css';
+import './componentes/Payyed - Money Transfer and Online Payments HTML Template_files/stylesheet.css';
+// import 'https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap';
 
 import  './componentes/Finbank __ Responsive HTML 5 Template_files/style(1).css';
 import  './componentes/Finbank __ Responsive HTML 5 Template_files/responsive.css';
 import Home from './views/Home/home';
 import Login from './componentes/login/login';
 import Register from './componentes/register/register';
+import Profile from './componentes/Payyed - Money Transfer and Online Payments HTML Template_files/profile';
+import Contato from './componentes/contato/contato'
 // import Register from './componentes/register/register';
 // import {Helmet} from 'react-helmet';
 import {BrowserRouter, Routes, Route, Outlet} from 'react-router-dom';
@@ -49,6 +56,9 @@ function App() {
         <Route path="/" exact element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/register" element={<Register/>}/>
+        <Route path="/profile" element={<Profile/>}/>
+        <Route path="/contato" element={<Contato/>}/>
+
       </Routes>
       </BrowserRouter>
       <Outlet/>
