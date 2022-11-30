@@ -1,6 +1,43 @@
 import image from '../formFiles/logo-light.svg'
+import axios from "axios";
+import {useState} from 'react'
 
 function Register(){
+    const [nome, setNome] = useState();
+    const [email, setEmail] = useState();
+    const [nasc, setNasc] = useState();
+    const [password, setPassword] = useState();
+    const [password2, setPassword2] = useState();
+
+    function setName(event){
+        setNome(event.target.value);
+    }
+    
+    function setEmail(event){
+        setEmail(event.target.value);
+    }
+
+    function setNasc(event){
+        setNasc(event.target.value);       
+    }
+
+    function setPassword(event){
+        setPassword(event.target.value);        
+        setPassword2(event.target.value)
+    }
+    function registrar(){
+    
+        const url = "http://127.0.0.1:8000/user/user/";
+           axios.post(url, {
+               name:nome,
+               email:email,
+               data_nasc:nasc,
+               hash_password:password,
+               salt_password:password,
+           })
+           .then(res => console.log(res))
+           .catch(err => console.log(err));
+       }
     return(
         <div className="form-body">
         <div className="website-logo">
@@ -24,16 +61,15 @@ function Register(){
                         <p>Access to the most powerfull tool in the entire design and web industry.</p>
                     
                         <form>
-                            <input className="form-control" type="text" name="name" placeholder="Full Name" required=""/>
-                            <input className="form-control" type="email" name="email" placeholder="E-mail Address" required=""/>
-                            <input className="form-control" type="password" name="password" placeholder="Password" required=""/>
+                            <input className="form-control" onChange={this.setName}  type="text" name="name" placeholder="Full Name" required=""/>
+                            <input className="form-control" onChange={this.setEmail} type="email" name="email" placeholder="E-mail Address" required=""/>
+                            <input className="form-control" onChange={this.setPassword} type="password" name="password" placeholder="Password" required=""/>
+                            <input className="form-control" onChange={this.setPassword} type="date" name="data" placeholder="Data de nascimento" required=""/>
                             <div className="form-button">
-                                <button id="submit" type="submit" className="ibtn">Register</button>
+                                <button id="submit" type="submit" onClick={registrar} className="ibtn">Register</button>
                             </div>
                         </form>
-                        <div className="other-links">
-                            <span>Or register with</span><a href="http://brandio.io/envato/iofrm/html/register1.html#">Facebook</a><a href="http://brandio.io/envato/iofrm/html/register1.html#">Google</a><a href="http://brandio.io/envato/iofrm/html/register1.html#">Linkedin</a>
-                        </div>
+                 
                     </div>
                 </div>
             </div>
