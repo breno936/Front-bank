@@ -1,4 +1,4 @@
-import logo1 from '../Finbank __ Responsive HTML 5 Template_files/logo-1.png'
+import logo1 from '../arquivos/logo-1.png'
 import {Link} from 'react-router-dom'
 function nav() {
   return (
@@ -13,16 +13,12 @@ function nav() {
                 <div className="main-menu__wrapper-inner">
 
                     <div className="main-menu-style1-left">
-                        <div className="logo-box-style1">
-                            <a href="https://st.ourhtmldemo.com/new/finbank-demo/index.html">
-                                <img src={logo1} alt="Awesome Logo" title=""/>
-                            </a>
-                        </div>
+                     
 
                         <div className="main-menu-box">
-                            <a href="https://st.ourhtmldemo.com/new/finbank-demo/#" className="mobile-nav__toggler">
+                            {/* <a href="https://st.ourhtmldemo.com/new/finbank-demo/#" className="mobile-nav__toggler">
                                 <i className="icon-menu"></i>
-                            </a>
+                            </a> */}
 
                             <ul className="main-menu__list">
                                 <li className="dropdown megamenu current">
@@ -34,12 +30,7 @@ function nav() {
                                 <li className="dropdown">
                                 <Link to="/profile">Sua conta</Link>
                                 </li>
-                                <li className="dropdown">
-                                    <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Sobre</a>
-                                </li>
-                                <li>
-                                <Link to="/contato">Contato</Link>
-                                </li>
+                            
                             </ul>
                         </div>
                     </div>

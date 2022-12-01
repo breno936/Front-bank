@@ -1,4 +1,4 @@
-import faq from '../Finbank __ Responsive HTML 5 Template_files/faq-style1__image.jpg';
+import faq from '../arquivos/faq-style1__image.jpg';
 
 function Questions(){
     return(
@@ -74,8 +74,8 @@ function Questions(){
                         <div className="faq-style1-bottom-box text-center">
                          
                             <div className="btns-box">
-                                <a className="btn-one" href="https://st.ourhtmldemo.com/new/finbank-demo/#">
-                                    <span className="txt">Grab Your Deals</span>
+                                <a className="btn-one">
+                                    <span className="txt">Mais</span>
                                 </a>
                             </div>
                         </div>

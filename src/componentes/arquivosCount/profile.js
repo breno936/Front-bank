@@ -1,5 +1,5 @@
-import Nav from '../../componentes/navBar/nav';
-import Footer from '../../componentes/footer/footer';
+import Nav from '../navBar/nav';
+import Footer from '../footer/footer';
 
 function Profile() {
   return (
@@ -18,8 +18,8 @@ function Profile() {
                 <input type="file" className="custom-file-input" id="customFile"/>
               </div>
             </div>
-            <p className="text-3 fw-500 mb-2">Hello, Smith Rhodes</p>
-            <p className="mb-2"><a href="settings-profile.html" className="text-5 text-light" data-bs-toggle="tooltip" title="Edit Profile"><i className="fas fa-edit"></i></a></p>
+            <p className="text-3 fw-500 mb-2">Hello</p>
+            <p className="mb-2"><a className="text-5 text-light" data-bs-toggle="tooltip" title="Edit Profile"><i className="fas fa-edit"></i></a></p>
           </div>
  
           <div className="bg-white shadow-sm rounded text-center p-3 mb-4">
@@ -27,7 +27,7 @@ function Profile() {
             <h3 className="text-9 fw-400">R$2956.00</h3>
             <p className="mb-2 text-muted opacity-8">Saldo</p>
             <hr className="mx-n3"/>
-            <div className="d-flex"><a href="withdraw-money.html" className="btn-link me-auto">Transferir</a> <a href="deposit-money.html" className="btn-link ms-auto">Deposito</a></div>
+            <div className="d-flex"><a className="btn-link me-auto">Transferir</a> <a className="btn-link ms-auto">Deposito</a></div>
           </div>
 
      

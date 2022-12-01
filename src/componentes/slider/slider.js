@@ -46,7 +46,7 @@ function Slider() {
                                                 </p>
                                             </div>
                                             <div className="btns-box">
-                                                <a className="btn-one" href="https://st.ourhtmldemo.com/new/finbank-demo/add-property.html">
+                                                <a className="btn-one">
                                                     <span className="txt">
                                                         Descubra
                                                     </span>
@@ -58,8 +58,8 @@ function Slider() {
                             </div>
                         </div>
                     <div className="slider-buttom-box">
-                        <a className="style2" href="https://st.ourhtmldemo.com/new/finbank-demo/#">Faça um Pagamento <span className="icon-play-button"></span></a>
-                        <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Faça uma Pergunta <span className="icon-play-button"></span></a>
+                        <a className="style2">Faça um Pagamento <span className="icon-play-button"></span></a>
+                        <a>Faça uma Pergunta <span className="icon-play-button"></span></a>
                     </div>
    
         </SwiperSlide>
@@ -79,7 +79,7 @@ function Slider() {
                                                 </p>
                                             </div>
                                             <div className="btns-box">
-                                                <a className="btn-one" href="https://st.ourhtmldemo.com/new/finbank-demo/add-property.html">
+                                                <a className="btn-one">
                                                     <span className="txt">
                                                         Descubra
                                                     </span>
@@ -91,8 +91,8 @@ function Slider() {
                             </div>
                         </div>
                     <div className="slider-buttom-box">
-                        <a className="style2" href="https://st.ourhtmldemo.com/new/finbank-demo/#">Faça um Pagamento <span className="icon-play-button"></span></a>
-                        <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Faça uma Pergunta <span className="icon-play-button"></span></a>
+                        <a className="style2">Faça um Pagamento <span className="icon-play-button"></span></a>
+                        <a>Faça uma Pergunta <span className="icon-play-button"></span></a>
                     </div>
         </SwiperSlide>
         <SwiperSlide className="fundoSlide3">
@@ -111,7 +111,7 @@ function Slider() {
                                                 </p>
                                             </div>
                                             <div className="btns-box">
-                                                <a className="btn-one" href="https://st.ourhtmldemo.com/new/finbank-demo/add-property.html">
+                                                <a className="btn-one">
                                                     <span className="txt">
                                                         Descubra
                                                     </span>
@@ -123,8 +123,8 @@ function Slider() {
                             </div>
                         </div>
                     <div className="slider-buttom-box">
-                        <a className="style2" href="https://st.ourhtmldemo.com/new/finbank-demo/#">Faça um Pagamento <span className="icon-play-button"></span></a>
-                        <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Faça uma Pergunta <span className="icon-play-button"></span></a>
+                        <a className="style2">Faça um Pagamento <span className="icon-play-button"></span></a>
+                        <a>Faça uma Pergunta <span className="icon-play-button"></span></a>
                     </div>
         </SwiperSlide>
         <SwiperSlide className="fundoSlide4">
@@ -143,7 +143,7 @@ function Slider() {
                                                 </p>
                                             </div>
                                             <div className="btns-box">
-                                                <a className="btn-one" href="https://st.ourhtmldemo.com/new/finbank-demo/add-property.html">
+                                                <a className="btn-one">
                                                     <span className="txt">
                                                         Descubra
                                                     </span>
@@ -155,8 +155,8 @@ function Slider() {
                             </div>
                         </div>
                     <div className="slider-buttom-box">
-                        <a className="style2" href="https://st.ourhtmldemo.com/new/finbank-demo/#">Faça um Pagamento <span className="icon-play-button"></span></a>
-                        <a href="https://st.ourhtmldemo.com/new/finbank-demo/#">Faça uma Pergunta <span className="icon-play-button"></span></a>
+                        <a className="style2">Faça um Pagamento <span className="icon-play-button"></span></a>
+                        <a>Faça uma Pergunta <span className="icon-play-button"></span></a>
                     </div>
         </SwiperSlide>
       </Swiper>

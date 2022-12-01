@@ -3,30 +3,13 @@ import axios from "axios";
 import {useState} from 'react'
 
 function Register(){
-    const [nome, setNome] = useState();
-    const [email, setEmail] = useState();
-    const [nasc, setNasc] = useState();
-    const [password, setPassword] = useState();
-    const [password2, setPassword2] = useState();
+    const [nome, setNome] = useState("");
+    const [email, setEmail] = useState("");
+    const [nasc, setNasc] = useState("");
+    const [password, setPassword] = useState("");
+    const [password2, setPassword2] = useState("");
 
-    function setName(event){
-        setNome(event.target.value);
-    }
-    
-    function setEmail(event){
-        setEmail(event.target.value);
-    }
-
-    function setNasc(event){
-        setNasc(event.target.value);       
-    }
-
-    function setPassword(event){
-        setPassword(event.target.value);        
-        setPassword2(event.target.value)
-    }
     function registrar(){
-    
         const url = "http://127.0.0.1:8000/user/user/";
            axios.post(url, {
                name:nome,
@@ -41,11 +24,11 @@ function Register(){
     return(
         <div className="form-body">
         <div className="website-logo">
-            <a href="http://brandio.io/envato/iofrm/html/index.html">
+          
                 <div className="logo">
                     <img className="logo-size" src="./iofrm_files/logo-light.svg" alt=""/>
                 </div>
-            </a>
+           
         </div>
         <div className="row">
             <div className="img-holder">
@@ -54,21 +37,21 @@ function Register(){
 
                 </div>
             </div>
-            <div className="form-holder">
+            <div className="form-holder" style={{zIndex:'999'}}>
                 <div className="form-content">
                     <div className="form-items">
                         <h3>Get more things done with Loggin platform.</h3>
                         <p>Access to the most powerfull tool in the entire design and web industry.</p>
                     
-                        <form>
-                            <input className="form-control" onChange={this.setName}  type="text" name="name" placeholder="Full Name" required=""/>
-                            <input className="form-control" onChange={this.setEmail} type="email" name="email" placeholder="E-mail Address" required=""/>
-                            <input className="form-control" onChange={this.setPassword} type="password" name="password" placeholder="Password" required=""/>
-                            <input className="form-control" onChange={this.setPassword} type="date" name="data" placeholder="Data de nascimento" required=""/>
+                      
+                            <input className="form-control" value={nome} onChange={e => setNome(e.target.value)}  type="text" name="name" placeholder="Full Name" required=""/>
+                            <input className="form-control" value={email} onChange={e => setEmail(e.target.value)} type="email" name="email" placeholder="E-mail Address" required=""/>
+                            <input className="form-control" value={password} onChange={e => {setPassword(e.target.value); setPassword2(e.target.value)}} type="password" name="password" placeholder="Password" required=""/>
+                            <input className="form-control" value={nasc} onChange={e => setNasc(e.target.value)} type="date" name="data" placeholder="Data de nascimento" required=""/>
                             <div className="form-button">
-                                <button id="submit" type="submit" onClick={registrar} className="ibtn">Register</button>
+                                <button id="submit" onClick={registrar} className="ibtn">Register</button>
                             </div>
-                        </form>
+                  
                  
                     </div>
                 </div>

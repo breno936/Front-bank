@@ -4,10 +4,8 @@ function Login(){
     function logar(){
     
      const url = "http://127.0.0.1:8000/user/user/";
-        axios.post(url, {
+        axios.get(url, {
             name:'Breno',
-            contaRemetente:"sdsd",
-
         })
         .then(res => console.log(res))
         .catch(err => console.log(err));
