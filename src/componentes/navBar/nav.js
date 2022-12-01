@@ -37,9 +37,12 @@ function nav() {
 
                     <div className="main-menu-style1-right">
                         <div className="header-btn-one">
+                         
                             <Link to="/login">
-                                <span className="icon-home-button"></span>Login
+                            <span className="icon-home-button"></span>Login
                             </Link>
+                            
+                            
                             <Link className="style2" to="/register">
                                 <span className="icon-payment"></span>Abra sua conta
                             </Link>
