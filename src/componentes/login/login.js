@@ -15,12 +15,25 @@ function Login(){
             senha:senha,
         })
         .then(res => {
+            console.log(res);
             localStorage.setItem("email",res.data[0].email);
             localStorage.setItem("logado",true);
-            
+
+            axios.post("http://127.0.0.1:8000/user/getConta/",{
+                idUser:res.data[0].id,
+            }).then(res => {
+                console.log(res);
+                localStorage.setItem("agencia", res.data[0].agencia)
+                localStorage.setItem("conta", res.data[0].conta)
+                localStorage.setItem("saldo", res.data[0].saldo)
+            })
+            .catch(err => console.log(err))
+
             navigate("/");
         })
         .catch(err => console.log(err));
+    
+     
     }
     return(
         <div className="form-body">

@@ -1,6 +1,10 @@
 import logo1 from '../arquivos/logo-1.png'
 import {Link} from 'react-router-dom'
 function nav() {
+    function Logout(){
+        localStorage.clear();
+        document.location.reload(true);
+    }
   return (
     <>
     <header className="main-header main-header-style1">
@@ -38,14 +42,31 @@ function nav() {
                     <div className="main-menu-style1-right">
                         <div className="header-btn-one">
                          
-                            <Link to="/login">
-                            <span className="icon-home-button"></span>Login
+                         {localStorage.getItem("logado") == null  ?(
+                              <Link to="/login">
+                              <span className="icon-home-button"></span>Login
+                              </Link>
+                         ):(
+                            <Link onClick={Logout}>
+                            <span className="icon-home-button"></span>Logout
                             </Link>
+                         )
+
+                         }
+
+                        {localStorage.getItem("logado") == null  ?(
+                                <Link className="style2" to="/register">
+                                    <span className="icon-payment"></span>Abra sua conta
+                                </Link>
+                         ):(
+                           <div></div>
+                         )
+
+                         }
+                          
                             
                             
-                            <Link className="style2" to="/register">
-                                <span className="icon-payment"></span>Abra sua conta
-                            </Link>
+                      
                         </div>
                     </div>
 

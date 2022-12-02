@@ -1,6 +1,7 @@
-import image from '../formFiles/logo-light.svg'
+import image from '../formFiles/logo-light.svg';
 import axios from "axios";
-import {useState} from 'react'
+import {useState} from 'react';
+import { useNavigate } from "react-router-dom";
 
 function Register(){
     const [nome, setNome] = useState("");
@@ -8,6 +9,7 @@ function Register(){
     const [nasc, setNasc] = useState("");
     const [password, setPassword] = useState("");
     const [password2, setPassword2] = useState("");
+    let navigate = useNavigate();
 
     function registrar(){
         const url = "http://127.0.0.1:8000/user/user/";
@@ -18,7 +20,9 @@ function Register(){
                hash_password:password,
                salt_password:password,
            })
-           .then(res => console.log(res))
+           .then(res => {console.log(res)
+            navigate("/");
+        })
            .catch(err => console.log(err));
        }
     return(
